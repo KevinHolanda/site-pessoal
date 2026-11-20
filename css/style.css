@@ -3,6 +3,16 @@
    Paleta: fundo escuro + dourado + off-white
    ============================================= */
 
+/* ---------- Fonte Thickart (local) ---------- */
+@font-face {
+  font-family: 'Thickart';
+  src: url('../fontes/THICKART.otf') format('opentype'),
+       url('../fontes/THICKART.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ---------- Reset & base ---------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -18,8 +28,8 @@
   --white:    #ffffff;
   --radius:   12px;
   --transition: 0.3s ease;
-  --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body:    'Inter', system-ui, sans-serif;
+  --font-heading: 'Thickart', 'Playfair Display', Georgia, serif;
+  --font-body:    'Thickart', 'Inter', system-ui, sans-serif;
 }
 
 html { scroll-behavior: smooth; }
